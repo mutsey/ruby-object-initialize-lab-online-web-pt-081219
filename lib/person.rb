@@ -1,7 +1,3 @@
-lassie = person.new("Jane")
+Jane = person.new("Jane")
  
-lassie.breed #=> "Corgi"
-
-lassie = Dog.new("Mutt")
-
-lassie.breed #=> "Mutt"
+Jane.person #=> "Jane"
